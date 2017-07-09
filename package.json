@@ -1,10 +1,11 @@
 {
-  "name": "echobot",
+  "name": "hawkbot",
   "version": "1.0.0",
   "description": "A sample bot for getting started with Bot Framework",
   "main": "server.js",
   "scripts": {
-    "test": ""
+    "test": "",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,6 @@
   "dependencies": {
     "botbuilder": "^3.6.0",
     "restify": "^4.3.0"
-  }
+  },
+  "devDependencies": {}
 }
